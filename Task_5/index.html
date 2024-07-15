@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Task_5</title>
+</head>
+<body>
+    <button type="button" onclick="print_sum()">Click Me!</button>
+
+</body>
+<script>
+    function print_sum()
+    {
+        var x= new Array(101);
+        var sum = 0;
+        for(var i =0 ; i<101 ; i++){
+            x[i]=i;
+            if(x[i]%2==0)
+            sum=sum+i;
+           
+        }
+        document.write(sum); 
+    } 
+    </script>
+</html>
